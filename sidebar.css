@@ -1,0 +1,121 @@
+.side-bar{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 18%;
+    height: 1665px;
+    float: left;
+    top: 75px;
+    left: 0;
+    position: fixed;
+    overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+.side-details{
+    background-color: white;
+    height: 40px;
+    
+   
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+.side-details:hover{
+    background-color: rgb(236, 241, 248);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.icon-pics{
+    width: 25px;
+    padding: 8px;
+    flex: 40px;
+}
+.icon-name{
+    font-family: roboto,Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+    padding-left: 10px;
+    
+}
+icon-space{
+    padding-left: 10px;
+}
+.first-side-bar{
+    margin:-10px 15px 11px 15px;
+    padding-bottom: 8px;
+    height: 123px;
+   
+    border-bottom: 1px solid rgb(235, 232, 232);
+   
+}
+.second-side-bar{
+    
+    padding-bottom:10px ;
+   
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid rgb(235, 232, 232);
+}
+.third-side-bar{
+    padding: 10px 15px;
+    height: 360px;
+    border-bottom: 1px solid rgb(224, 214, 214);
+}
+.select-button{
+    padding-left: 5px;
+    margin-right: 15px;
+    border: none;
+    box-sizing: 20pxx;
+}
+.round-dps{
+    border-radius: 20px;
+}
+.explore-bar{
+    height: 485px;
+    padding: 10px 15px;
+    border-bottom: 1px solid rgb(224, 214, 214);
+}
+
+.more-from-yt{
+    margin-top: 23px;
+    height: 210px;
+   
+    border-bottom: 1px solid rgb(224, 214, 214);
+}
+.para-side{
+    font-family: Roboto,arial;
+    font-weight: 500;
+}
+.settings-bar{
+    height: 173px;
+    margin-top: 10px;
+  
+    border-bottom: 1px solid rgb(224, 214, 214);
+}
+.about-bar{
+    height: 185px;
+    
+}
+.primary-guide-links{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-family: Roboto,Arial;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(95, 94, 94);
+    line-height:18px;
+}
+.primary-guide-links:hover{
+    cursor: pointer;
+}
+#llc{
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 100;
+    font-family: Roboto;
+    padding-left: 15px;
+color: gray;
+}
